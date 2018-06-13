@@ -10,10 +10,10 @@ except:
     print "Cannot find Python Twitter Tools."
     sys.exit()
 
-ACCESS_TOKEN = "76254882-igW2dzDAFfazDiUHFCZZRdWVRqP7l3L3aFSURPL9q"
-ACCESS_SECRET = "SuW1MfXZtBB1JJ7iXcSuUA4jxlneMAQdPQzWKVo22NpS8"
-CONSUMER_KEY = "N2K1qgJDKqsYkvqNXEa1eNjOV"
-CONSUMER_SECRET = "Cx0bzYKvX8an4v2hPl4Sc1xnXVnLI8Hv7heg9IvscS2c82242a"
+ACCESS_TOKEN = "ACCESS_TOKEN"
+ACCESS_SECRET = "ACCESS_SECRET"
+CONSUMER_KEY = "CONSUMER_KEY"
+CONSUMER_SECRET = "CONSUMER_SECRET"
 
 class TwitterStreaming:
     general_tweets = "general_tweets.json"
