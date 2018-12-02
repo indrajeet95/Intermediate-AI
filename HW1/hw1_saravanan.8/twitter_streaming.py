@@ -38,7 +38,8 @@ class TwitterStreaming:
         output_file = open(filename, "a")
         oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
         twitter_stream = TwitterStream(auth=oauth)
-        iterator = twitter_stream.statuses.filter(locations=locations)
+        #iterator = twitter_stream.statuses.filter(locations=locations)
+        iterator = twitter_stream.statuses.filter(track="Google", language="en")
         for tweet in iterator:
             if 'text' not in tweet:
                 continue
